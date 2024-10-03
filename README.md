@@ -90,7 +90,7 @@ This project is free.
 If you have any questions or feedback, feel free to reach out:
 
 - **Author**: Your Name
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/miguel-%C3%A1ngel-osorio-londo%C3%B1o-940218206/)
-- **GitHub**: [Your GitHub Profile](https://github.com/Daijaz)
-- **Email**: [youremail@example.com](mailto:miguelosorio1904@gmail.com)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/miguel-%C3%A1ngel-osorio-londo%C3%B1o-940218206/)
+- **GitHub**: [GitHub Profile](https://github.com/Daijaz)
+- **Email**: [Email](mailto:miguelosorio1904@gmail.com)
 
