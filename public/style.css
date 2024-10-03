@@ -1,0 +1,80 @@
+/* Fondo del sitio */
+body {
+  background-image: url('./assets/img/wallpaper.webp'); /* Ajustar la ruta según sea necesario */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #f8f9fa;
+}
+
+/* Estilo del título principal */
+#appTitle {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 4.5rem; /* Incrementar el tamaño del título */
+  color: #f8f9fa;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Botón de Play */
+#playBtn {
+  font-family: 'Fredoka One', sans-serif;
+  margin-top: 20px;
+  background-color: rgba(185, 120, 40, 0.8);
+  border: none;
+  font-size: 1.5rem;
+}
+
+/* Información de la película */
+#movieText {
+  font-family: 'Questrial';
+  color: #f8f9fa;
+  line-height: 1.8;
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 1.5rem; /* Incrementar tamaño del texto */
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+  padding: 20px; /* Espaciado interior */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para destacar el cuadro */
+}
+
+/* Título y descripción de la película */
+#movieTitle, #movieOverview {
+  padding: 32px;
+}
+
+/* Ajustar tamaño del póster */
+#moviePoster img {
+  max-width: 80%; /* Reducir el tamaño del póster */
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* Botones de like y dislike con estilos personalizados */
+.custom-like-btn, .custom-dislike-btn {
+  font-size: 2rem; /* Tamaño grande */
+  width: 80px; /* Ancho de los botones */
+  height: 80px; /* Alto de los botones */
+  border-radius: 50%; /* Hacer los botones redondos */
+  transition: transform 0.3s ease; /* Agregar animación de transformación */
+}
+
+/* Colores personalizados */
+.custom-like-btn {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.custom-dislike-btn {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+/* Animación de hover */
+.custom-like-btn:hover, .custom-dislike-btn:hover {
+  transform: scale(1.2); /* Incrementar el tamaño al pasar el ratón */
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5); /* Sombra al hacer hover */
+}
