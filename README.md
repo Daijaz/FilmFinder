@@ -57,6 +57,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 2. **Enjoy!: Start selecting genres and discover random movies tailored to your preferences!**:
 
 ### 📂 Folder Structure
+```
 FilmFinder/
 ├── public/
 │   ├── helpers.js          # Helper functions for DOM manipulation
@@ -66,6 +67,7 @@ FilmFinder/
 │   └── project-image.png   # Image used in the Open Graph metadata
 ├── index.html              # Main HTML file
 └── README.md               # Project documentation (this file)
+```
 
 ## 👀 Preview
 Here's a preview of Film Finder in action:
